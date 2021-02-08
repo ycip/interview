@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.apphile.interview"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:5:5-66
+14-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:5:22-64
+15
+16    <application
+16-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:8:5-46:19
+17        android:name="io.flutter.app.FlutterApplication"
+17-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:9:9-57
+18        android:allowBackup="false"
+18-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:14:9-36
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\ycan\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:fullBackupContent="false"
+21-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:15:9-42
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:11:9-43
+23        android:label="interview" >
+23-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:10:9-34
+24        <activity
+24-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:18:9-42:20
+25            android:name="com.apphile.interview.MainActivity"
+25-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:19:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:22:13-163
+27            android:hardwareAccelerated="true"
+27-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:23:13-47
+28            android:launchMode="singleTop"
+28-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:20:13-43
+29            android:parentActivityName="com.apphile.interview"
+29-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:27:13-63
+30            android:theme="@style/LaunchTheme"
+30-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:21:13-47
+31            android:windowSoftInputMode="adjustResize" >
+31-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:24:13-55
+32            <meta-data
+32-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:30:13-33:17
+33                android:name="io.flutter.embedding.android.NormalTheme"
+33-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:31:15-70
+34                android:resource="@style/NormalTheme" />
+34-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:32:15-52
+35            <meta-data
+35-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:34:13-37:17
+36                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+36-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:35:15-79
+37                android:resource="@drawable/launch_background" />
+37-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:36:15-61
+38
+39            <intent-filter>
+39-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:38:13-41:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:39:17-68
+40-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:39:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:40:17-76
+42-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:40:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <meta-data
+46-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:43:9-45:33
+47            android:name="flutterEmbedding"
+47-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:44:13-44
+48            android:value="2" />
+48-->C:\Users\ycan\temple\android\app\src\main\AndroidManifest.xml:45:13-30
+49    </application>
+50
+51</manifest>

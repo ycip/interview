@@ -1,0 +1,44 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_Data _$_$_DataFromJson(Map<String, dynamic> json) {
+  return _$_Data(
+    day: (json['1G'] as List)
+        ?.map((e) => e == null ? null : Day.fromJson(e as Map<String, dynamic>))
+        ?.toList(),
+    week: (json['1H'] as List)
+        ?.map(
+            (e) => e == null ? null : Week.fromJson(e as Map<String, dynamic>))
+        ?.toList(),
+    month: (json['1A'] as List)
+        ?.map(
+            (e) => e == null ? null : Month.fromJson(e as Map<String, dynamic>))
+        ?.toList(),
+    quartYear: (json['3A'] as List)
+        ?.map((e) =>
+            e == null ? null : QuartYear.fromJson(e as Map<String, dynamic>))
+        ?.toList(),
+    year: (json['1Y'] as List)
+        ?.map(
+            (e) => e == null ? null : Year.fromJson(e as Map<String, dynamic>))
+        ?.toList(),
+    fiveYear: (json['5Y'] as List)
+        ?.map((e) =>
+            e == null ? null : FiveYear.fromJson(e as Map<String, dynamic>))
+        ?.toList(),
+    code: json['code'] as String,
+    symbol: json['symbol'] as String,
+  );
+}
+
+Map<String, dynamic> _$_$_DataToJson(_$_Data instance) => <String, dynamic>{
+      '1G': instance.day?.map((e) => e?.toJson())?.toList(),
+      '1H': instance.week?.map((e) => e?.toJson())?.toList(),
+      '1A': instance.month?.map((e) => e?.toJson())?.toList(),
+      '3A': instance.quartYear?.map((e) => e?.toJson())?.toList(),
+      '1Y': instance.year?.map((e) => e?.toJson())?.toList(),
+      '5Y': instance.fiveYear?.map((e) => e?.toJson())?.toList(),
+      'code': instance.code,
+      'symbol': instance.symbol,
+    };
